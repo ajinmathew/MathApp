@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Largest"
+    android:padding="20dp"
+    android:stretchColumns="1"
+    android:gravity="center">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:text="Number 1"/>
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3E9AD9" />
+    </TableRow>
+    <TableRow
+android:layout_height="wrap_content"
+android:layout_width="180dp">
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Number 2"/>
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/num2"
+    android:textColor="#3E9AD9"/>
+</TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="180dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Number 3"/>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/num3"
+            android:textColor="#3E9AD9"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="180dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/find"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="find largest"
+            android:textColor="#F4BA0C" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="180dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Largest Number"/>
+
+        <EditText
+            android:id="@+id/largest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EE9CA7" />
+    </TableRow>
+
+
+</TableLayout>

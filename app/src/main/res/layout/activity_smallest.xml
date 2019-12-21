@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Smallest"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="number 1"
+        android:id="@+id/relnum1"/>
+    <EditText
+        android:layout_below="@+id/relnum1"
+        android:id="@+id/reltxtnum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1790F0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="number 2"
+        android:layout_below="@+id/reltxtnum1"
+        android:id="@+id/relnum2"/>
+    <EditText
+        android:layout_below="@+id/relnum2"
+        android:id="@+id/reltxtnum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1790F0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relnum3"
+        android:layout_below="@+id/reltxtnum2"
+        android:text="number 3"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reltxtnum3"
+        android:layout_below="@id/relnum3"
+        android:textColor="#1790F0"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Smallest"
+        android:id="@+id/smallestbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/reltxtnum3"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smallestbtn"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smallest No  :"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/smallestnumber"
+            android:textColor="#E92213"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/smallestnumber"
+            android:id="@+id/smallestnumberop"
+            android:textColor="#1790F0"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
